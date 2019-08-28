@@ -41,7 +41,6 @@ public class A1Jedi {
 					}
 				}
 				if(check) {
-					System.out.println("got here");
 					fcus[cfind]++;
 					fsold[cfind] += cfbo;
 				}
