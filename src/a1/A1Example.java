@@ -8,7 +8,7 @@ public class A1Example {
 		// Print out the Java version number, just to let 
 		// you know what Eclipse thinks it is using and
 		// so that you can confirm that it is 10.0 or higher.
-		
+
 		
 		// Set up scanner object to read space-separated values
 		// from console input

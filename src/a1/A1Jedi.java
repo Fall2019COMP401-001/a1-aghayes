@@ -34,7 +34,6 @@ public class A1Jedi {
 				int cfind = index(fname, cfname);
 				for(int l = 0; l < cfnum; l++){
 					if(cfind == cfindlist[l]){
-						System.out.println(cfind == cfindlist[l]);
 						fsold[cfind] += cfbo;
 						check = false;
 						break;
