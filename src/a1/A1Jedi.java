@@ -46,9 +46,7 @@ public class A1Jedi {
 					fcus[cfind]++;
 					fsold[cfind] += cfbo;
 				}
-				System.out.println(cfindlist[k]);
 				cfindlist[k] = cfind;
-				System.out.println(cfindlist[k]);
 			}
 		}
 		for( int j = 0; j < fname.length; j++){
