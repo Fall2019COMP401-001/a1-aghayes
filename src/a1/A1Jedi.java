@@ -1,5 +1,7 @@
 package a1;
 
+import javax.swing.plaf.synth.SynthUI;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -27,6 +29,7 @@ public class A1Jedi {
 			scan.next();
 			int cfnum = scan.nextInt();
 			int[] cfindlist = new int[cfnum];
+			Arrays.fill(cfindlist, -1);
 			for(int k = 0; k < cfnum; k++){
 				int cfbo = scan.nextInt();
 				boolean check = true;
@@ -43,7 +46,9 @@ public class A1Jedi {
 					fcus[cfind]++;
 					fsold[cfind] += cfbo;
 				}
+				System.out.println(cfindlist[k]);
 				cfindlist[k] = cfind;
+				System.out.println(cfindlist[k]);
 			}
 		}
 		for( int j = 0; j < fname.length; j++){
